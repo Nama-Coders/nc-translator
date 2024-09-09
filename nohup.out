@@ -1,0 +1,62 @@
+Checking for docker...  [92m found[39m
+the input device is not a TTY
+Checking for docker...  [92m found[39m
+the input device is not a TTY
+Starting libretranslate ... 
+[1A[2KStarting libretranslate ... [32mdone[0m[1BAttaching to libretranslate
+[36mlibretranslate    |[0m Traceback (most recent call last):
+[36mlibretranslate    |[0m   File "/app/./venv/bin/libretranslate", line 8, in <module>
+[36mlibretranslate    |[0m Updating language models
+[36mlibretranslate    |[0m Found 88 models
+[36mlibretranslate    |[0m Keep 2 models
+[36mlibretranslate    |[0m Downloading Arabic → English (1.0) ...
+[36mlibretranslate    |[0m Cannot update models (normal if you're offline): Not a valid Argos Model (must be a zip archive)
+[36mlibretranslate    |[0m     sys.exit(main())
+[36mlibretranslate    |[0m              ^^^^^^
+[36mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/main.py", line 226, in main
+[36mlibretranslate    |[0m     app = create_app(args)
+[36mlibretranslate    |[0m           ^^^^^^^^^^^^^^^^
+[36mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/app.py", line 191, in create_app
+[36mlibretranslate    |[0m     language_target_fallback = languages[1] if len(languages) >= 2 else languages[0]
+[36mlibretranslate    |[0m                                                                         ~~~~~~~~~^^^
+[36mlibretranslate    |[0m IndexError: list index out of range
+[33mlibretranslate    |[0m Updating language models
+[33mlibretranslate    |[0m Found 88 models
+[33mlibretranslate    |[0m Keep 2 models
+[33mlibretranslate    |[0m Downloading Arabic → English (1.0) ...
+[33mlibretranslate    |[0m Cannot update models (normal if you're offline): Not a valid Argos Model (must be a zip archive)
+[33mlibretranslate    |[0m Traceback (most recent call last):
+[33mlibretranslate    |[0m   File "/app/./venv/bin/libretranslate", line 8, in <module>
+[33mlibretranslate    |[0m     sys.exit(main())
+[33mlibretranslate    |[0m              ^^^^^^
+[33mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/main.py", line 226, in main
+[33mlibretranslate    |[0m     app = create_app(args)
+[33mlibretranslate    |[0m           ^^^^^^^^^^^^^^^^
+[33mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/app.py", line 191, in create_app
+[33mlibretranslate    |[0m     language_target_fallback = languages[1] if len(languages) >= 2 else languages[0]
+[33mlibretranslate    |[0m                                                                         ~~~~~~~~~^^^
+[33mlibretranslate    |[0m IndexError: list index out of range
+[36mlibretranslate exited with code 1
+[0m[32mlibretranslate    |[0m Updating language models
+[32mlibretranslate    |[0m Found 88 models
+[32mlibretranslate    |[0m Keep 2 models
+[32mlibretranslate    |[0m Downloading Arabic → English (1.0) ...
+[32mlibretranslate    |[0m Cannot update models (normal if you're offline): Not a valid Argos Model (must be a zip archive)
+[32mlibretranslate    |[0m Traceback (most recent call last):
+[32mlibretranslate    |[0m   File "/app/./venv/bin/libretranslate", line 8, in <module>
+[32mlibretranslate    |[0m     sys.exit(main())
+[32mlibretranslate    |[0m              ^^^^^^
+[32mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/main.py", line 226, in main
+[32mlibretranslate    |[0m     app = create_app(args)
+[32mlibretranslate    |[0m           ^^^^^^^^^^^^^^^^
+[32mlibretranslate    |[0m   File "/app/venv/lib/python3.11/site-packages/libretranslate/app.py", line 191, in create_app
+[32mlibretranslate    |[0m     language_target_fallback = languages[1] if len(languages) >= 2 else languages[0]
+[32mlibretranslate    |[0m                                                                         ~~~~~~~~~^^^
+[32mlibretranslate    |[0m IndexError: list index out of range
+[33mlibretranslate exited with code 1
+[0mChecking for docker...  [92m found[39m
+the input device is not a TTY
+Checking for docker...  [92m found[39m
+the input device is not a TTY
+Checking for docker...  [92m found[39m
+the input device is not a TTY
